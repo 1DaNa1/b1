@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(32, 71%, 62%); /* Ніжно помаранчевий фон */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('images/53.jpg'); /* Додала картинку */
+    background-size: cover; /* Зробила картинку на весь розмір */
+    background-position: center; /* Вирівняла картинку по центру */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;  
+    font-weight: bold; /* Жирний текст */
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px; /* Збільшила розмір тексту у посиланнях */
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center; /* Вирівняла вміст по центру */
+}
+
+footer a {
+    color: rgb(227, 86, 15);
+    text-decoration: none;
+}
+
+footer {
+    background-image: url('images/53.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold; /* Жирний текст */
+}
+
+.line {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(237, 73, 13);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px; /* Фіксований розмір */
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+video-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    margin: 20px;
+}
+
+video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,85 @@
+/* Стилі для тіла документа */
+body {
+    background-color: hsl(32, 71%, 62%); /* Ніжно помаранчевий фон */
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для заголовка */
+header {
+    background-image: url('images/54.jpg'); /* Додала картинку */
+    background-size: cover; /* Зробила картинку на весь розмір */
+    background-position: center; /* Вирівняла картинку по центру */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold; /* Жирний текст */
+}
+
+/* Стилі для навігаційного меню */
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px; /* Збільшила розмір тексту у посиланнях */
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Стилі для основного контенту */
+main {
+    padding: 20px;
+    display: flex; /* Використовуємо flex-контейнер для розміщення елементів */
+    align-items: flex-start; /* Вирівнюємо елементи зліва */
+    justify-content: space-between; /* Розміщення елементів від краю до краю */
+}
+
+/* Стилі для текстового контенту */
+.main-content {
+    padding-right: 20px; /* Відступ справа для відділення геолокації від тексту */
+}
+
+main ul {
+    font-size: 28px; /* Збільшений розмір тексту */
+}
+
+/* Стилі для фрейму */
+iframe {
+    width: 60%; /* Ширина фрейму */
+    height: 400px; /* Висота фрейму */
+}
+
+/* Стилі для посилань у футері */
+footer a {
+    color: rgb(227, 86, 15);
+    text-decoration: none;
+}
+
+/* Стилі для футера */
+footer {
+    background-image: url('images/54.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold; /* Жирний текст */
+}
+
+/* Стилі для лінії */
+.line {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(237, 73, 13);
+}

@@ -1,0 +1,133 @@
+/* Селектор по елементу */
+body {
+    background-color: hsl(32, 71%, 72%); /* Світло-помаранчевий фон */
+    margin: 0;
+    padding: 0;
+}
+
+/* Селектор по елементу */
+header {
+    background-image: url('images/48.png'); /* Додала картинку */
+    background-size: cover; /* Зробила картинку на весь розмір */
+    background-position: center; /* Вирівняла картинку по центру */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;  
+    font-weight: bold; /* Жирний текст */
+}
+
+/* Селектор по елементу */
+nav {
+    padding: 10px;
+}
+
+/* Груповий селектор */
+nav ul,
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Селектор по елементу */
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 24px; /* Збільшив розмір тексту у посиланнях */
+}
+
+/* Селектор по елементу */
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Селектор по елементу */
+main {
+    padding: 20px;
+    text-align: center; /* Вирівняла вміст по центру */
+    font-size: 24px;
+}
+
+/* Змінюємо колір посилання в футері */
+footer a {
+    color: rgb(227, 86, 15);
+    text-decoration: none;
+}
+
+/* Селектор по елементу */
+footer {
+    background-image: url('images/48.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold; /* Жирний текст */
+}
+
+/* Стиль для ліній */
+.line {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(237, 73, 13);
+}
+
+/* Стилі для всіх таблиць */
+table {
+    background-color: lightblue; /* Задній фон таблиці */
+    border-radius: 10px; /* Скруглені кути таблиці */
+    font-size: 18px; /* Збільшено розмір тексту у таблиці */
+}
+
+.subsection {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Вирівнюємо елементи вертикально */
+    border: 2px solid white; /* Додаємо границю білого кольору */
+    border-radius: 10px; /* Скруглені кути */
+    margin-bottom: 20px; /* Додаємо відступ вниз */
+}
+
+.content {
+    flex: 1; /* Займає доступне місце */
+    padding: 15 20px;
+}
+
+
+.image-container {
+    width: 300px; /* Задайте бажану ширину контейнера */
+    height: 300px; /* Задайте бажану висоту контейнера */
+    margin-left: 20px; /* Додайте відступ для контейнера */
+    overflow: hidden; /* Обрізаємо зайве зображення, що вилазить за границі */
+    background-size: cover; /* Забезпечуємо розтягнення зображення для заповнення контейнера */
+    background-position: center; /* Центруємо зображення у контейнері */
+}
+
+.image {
+    width: 100%; /* Зробіть ширину зображення 100% */
+    height: 100%; /* Зробіть висоту зображення 100% */
+}
+
+.image1 {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Збільшили висоту зображення */
+    margin-left: 20px; /* Додали відступ для зображення */
+    margin-bottom: 20px; /* Додали відступ знизу */
+}
+
+
+
+
+.subsection:nth-child(odd) {
+    flex-direction: row-reverse; /* Змінюємо напрямок для непарних елементів */
+}
+
+.subsection h3 {
+    font-size: 28px; /* Збільш розмір тексту у заголовках */
+}
+
+.subsection p {
+    margin-bottom: 10px; /* Додали відступ вниз */
+}

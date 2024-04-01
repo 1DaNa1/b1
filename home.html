@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pottery_Головна</title>
+    <!-- Підключення зовнішнього CSS файлу -->
+    <link rel="stylesheet" href="style_home.css">
 </head>
 <body>
 
 <header>
-    <img src="images/4.webp" alt="Майстер клас гончарних виробів">
-    <h1>Майстер клас гончарних виробів</h1>
+    <h1>Pottery:Майстер клас гончарних виробів</h1>
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="home.html">Головна</a></li>
             <li><a href="contacts.html">Контакти</a></li>
             <li><a href="gallery.html">Галерея</a></li>
@@ -20,79 +21,97 @@
     </nav>
 </header>
 
+ <!-- Додала лінію -->
+ <div class="line"></div>
+
 <main>
-    <section id="about">
+    <section id="about" class="section">
         <h2>Про нас &#x1F3FA;</h2>
         <p><strong>Ласкаво просимо до майстер класу гончарних виробів!</strong></p>
-        <p> Якщо ви завжди мріяли створити щось унікальне своїми руками та виразити свою творчість, то ви потрапили за адресою.<em>Наш майстер клас пропонує можливість поглибити свої знання в гончарному мистецтві, дізнатись більше про українські традиції та культуру, а також провести час в компанії цікавих людей.</em></p>
+        <p> Якщо ви завжди мріяли створити щось унікальне своїми руками та виразити свою творчість, то ви потрапили за адресою.<br><em>Наш майстер клас пропонує можливість поглибити свої знання в гончарному мистецтві, дізнатись більше про українські традиції та культуру, а також провести час в компанії цікавих людей.</em></p>
         <p>Під керівництвом наших досвідчених викладачів ви отримаєте не лише нові навички у гончарному мистецтві, але й незабутні враження від процесу створення унікальних виробів. Приєднуйтесь до нас та діліться своєю творчістю!</p>
-        <img src="images/33.jpg" alt="Майстерня гончарного мистецтва">
+        <img src="images/44.png" alt="Майстерня гончарного мистецтва" class="image1">
+ 
     </section>
 
-    <section id="lists">
-        <div>
-            <h3>Що треба взяти з собою:</h3>
-            <ol>
-                <li><strong>Гарний настрій</strong> - необхідний елемент для успішного створення &#x1F643;</li>
-                <li><strong>Цікаві ідеї</strong> - допоможуть зробити ваш виріб унікальним &#x1F4AB;</li>
-                <li><strong>Одяг</strong> - рекомендується взяти старий одяг, який не шкода забруднити глиною &#x1F455;</li>
-            </ol>
-            <img src="images/31.jpg" alt="Зображення3">
+    <section id="lists" class="section">
+        <div class="subsection">
+            <div class="content">
+                <h3>Що треба взяти з собою:</h3>
+                <ol>
+                    <li><strong>Гарний настрій</strong> - необхідний елемент для успішного створення &#x1F643;</li>
+                    <li><strong>Цікаві ідеї</strong> - допоможуть зробити ваш виріб унікальним &#x1F4AB;</li>
+                    <li><strong>Одяг</strong> - рекомендується взяти старий одяг, який не шкода забруднити глиною &#x1F455;</li>
+                </ol>
+            </div>
+            <div class="content">
+                <img src="images/4.webp" alt="Зображення3" class="image">
+            </div>
         </div>
-
-        <div>
-            <h3>Чому варто обрати нас:</h3>
-            <dl>
-                <dt>Професійні викладачі &#x1F9D1;&#x200D;&#x1F3EB;</dt>
-                <dd>Наші викладачі мають багатий досвід у гончарному мистецтві і готові допомогти вам на кожному етапі.</dd>
-                <dt>Креативний процес &#x2728;</dt>
-                <dd>Ми пропонуємо креативну атмосферу, яка сприяє розвитку вашої творчості та відкриттю нових ідей.</dd>
-                <dt>Приємна атмосфера &#x1F31E;</dt>
-                <dd>У нашій майстерні завжди панує дружня та відкрита атмосфера, що стимулює творчість.</dd>
-            </dl>
-            <img src="images/29.jpg" alt="Зображення4">
+        <div class="subsection">
+            <div class="content">
+                <h3>Чому варто обрати нас:</h3>
+                <dl>
+                    <dt>Професійні викладачі &#x1F9D1;&#x200D;&#x1F3EB;</dt>
+                    <dd>Наші викладачі мають багатий досвід у гончарному мистецтві і готові допомогти вам на кожному етапі.</dd>
+                    <dt>Креативний процес &#x2728;</dt>
+                    <dd>Ми пропонуємо креативну атмосферу, яка сприяє розвитку вашої творчості та відкриттю нових ідей.</dd>
+                    <dt>Приємна атмосфера &#x1F31E;</dt>
+                    <dd>У нашій майстерні завжди панує дружня та відкрита атмосфера, що стимулює творчість.</dd>
+                </dl>
+            </div>
+            <div class="content">
+                <img src="images/36.jpg" alt="Зображення4" class="image">
+            </div>
         </div>
-
-        <div>
-            <h3>Що ви отримаєте по завершенню:</h3>
-            <ul>
-                <li><strong>Гарний виріб</strong> - ваша унікальна творчість &#x1FAD6;</li>
-                <li><strong>Нові знання</strong> - ви оволодієте техніками гончарного мистецтва &#x1F4A1;</li>
-                <li><strong>Гарно проведений час</strong> - незабутні враження від майстер класу &#x1F642;</li>
-            </ul>
-            <img src="images/30.jpg" alt="Зображення5">
+        <div class="subsection">
+            <div class="content">
+                <h3>Що ви отримаєте по завершенню:</h3>
+                <ul>
+                    <li><strong>Гарний виріб</strong> - ваша унікальна творчість &#x1FAD6;</li>
+                    <li><strong>Нові знання</strong> - ви оволодієте техніками гончарного мистецтва &#x1F4A1;</li>
+                    <li><strong>Гарно проведений час</strong> - незабутні враження від майстер класу &#x1F642;</li>
+                </ul>
+            </div>
+            <div class="content">
+                <img src="images/37.jpg" alt="Зображення5" class="image">
+            </div>
         </div>
-
-        <div>
-            <h3>Що ви можете зробити:</h3>
-            <ol>
-                <li><strong>Посуд &#x26B1;</strong>:
-                    <ul>
-                        <li>Горщики</li>
-                        <li>Чашки</li>
-                        <li>Тарілки</li>
-                    </ul>
-                </li>
-                <li><strong>Іграшки &#x1F9F8;</strong>:
-                    <ul>
-                        <li>Фігурки тварин</li>
-                        <li>Фігурки людей</li>
-                    </ul>
-                </li>
-                <li><strong>Подарунки &#x1F381;</strong>:
-                    <ul>
-                        <li>Підвіска</li>
-                        <li>Щось нове і цікаве</li>
-                    </ul>
-                </li>
-            </ol>
-            <img src="images/28.jpg" alt="Зображення6">
+        <div class="subsection">
+            <div class="content">
+                <h3>Що ви можете зробити:</h3>
+                <ol>
+                    <li><strong>Посуд &#x26B1;</strong>:
+                        <ul>
+                            <li>Горщики</li>
+                            <li>Чашки</li>
+                            <li>Тарілки</li>
+                        </ul>
+                    </li>
+                    <li><strong>Іграшки &#x1F9F8;</strong>:
+                        <ul>
+                            <li>Фігурки тварин</li>
+                            <li>Фігурки людей</li>
+                        </ul>
+                    </li>
+                    <li><strong>Подарунки &#x1F381;</strong>:
+                        <ul>
+                            <li>Підвіска</li>
+                            <li>Щось нове і цікаве</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div class="content">
+                <img src="images/40.jpg" alt="Зображення6" class="image">
+            </div>
         </div>
     </section>
+    
 
-    <section id="schedule">
+    <section id="schedule" class="section">
         <h2>Розклад та ціни &#x1F55B; &#x1F4B8;</h2>
-        <table width="100%" border="1" cellspacing="10" cellpadding="5">
+        <table width="100%" border="1" cellspacing="10" cellpadding="5" class="timetable">
             <thead>
                 <tr>
                     <th align="center">День</th>
@@ -141,61 +160,17 @@
         </table>
         <p><b>Свята та день народження - знижки! &#x1F389;</b></p>
     </section>
-
-    <section id="forms">
-        <h2>Форми бронювання майстер-класу</h2>
-        <form action="booking.php" method="post">
-            <label for="name">Ваше ім'я:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            
-            <label for="phone">Телефон:</label><br>
-            <input type="text" id="phone" name="phone"><br><br>
-            
-            <label for="password">Пароль:</label><br>
-            <input type="password" id="password" name="password"><br><br>
-            
-            <label for="message">Коментар чи побажання:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-            
-            <label for="photo">Фото вашого виробу:</label><br>
-            <input type="file" id="photo" name="photo"><br><br>
-            
-            <label for="day">Оберіть день:</label><br>
-            <select id="day" name="day">
-                <option value="monday">Понеділок</option>
-                <option value="tuesday">Вівторок</option>
-                <option value="wednesday">Середа</option>
-                <option value="thursday">Четвер</option>
-                <option value="friday">П'ятниця</option>
-            </select><br><br>
-            
-            <label for="time">Оберіть годину:</label><br>
-            <input type="time" id="time" name="time"><br><br>
-            
-            <label>Оберіть спосіб оплати:</label><br>
-            <input type="radio" id="cash" name="payment" value="cash">
-            <label for="cash">Готівка</label><br>
-            <input type="radio" id="card" name="payment" value="card">
-            <label for="card">Картка</label><br><br>
-            
-            <input type="checkbox" id="accept" name="accept_terms">
-            <label for="accept">Погоджуюся з умовами бронювання</label><br><br>
-            
-            <input type="submit" value="Забронювати">
-        </form>
-    </section>
-    
-    
-
 </main>
 
+ <!-- Додала лінію -->
+ <div class="line"></div>
+
 <footer id="main-footer">
+    <a href="contacts.html">Зв'язатись з нами:</a>
     <p>Адреса: пл.Ринок, 15, м. Львів &#x1F310;</p>
     <p>Телефон: +380123456789 &#x1F4F1;</p>
     <p>Email: info@pottery.com &#x1F4E7;</p>
+    <a href="booking.html">Забронювати час</a>
     <p>&copy; 2024 Pottery </p>
 </footer>
 
