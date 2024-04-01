@@ -40,8 +40,8 @@ nav ul li a {
 /* Стилі для основного контенту */
 main {
     padding: 20px;
-    display: flex; /* Використовуємо flex-контейнер для розміщення елементів */
-    align-items: flex-start; /* Вирівнюємо елементи зліва */
+    display: flex; /* Використовуєflex-контейнер для розміщення елементів */
+    align-items: flex-start; /* Вирівнює елементи зліва */
     justify-content: space-between; /* Розміщення елементів від краю до краю */
 }
 
@@ -60,7 +60,7 @@ iframe {
     height: 400px; /* Висота фрейму */
 }
 
-/* Стилі для посилань у футері */
+/* Стилі для посилань*/
 footer a {
     color: rgb(227, 86, 15);
     text-decoration: none;
@@ -130,7 +130,7 @@ footer {
     transform: translateX(-100%);
     transition: transform 0.5s;
     display: flex;
-    flex-direction: column; /* Змінено з 'row' на 'column' */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
@@ -145,7 +145,7 @@ footer {
 }
 
 
-/* Змінюємо гамбургер значок, коли меню відкрито */
+/* Змінює гамбургер значок, коли меню відкрито */
 .menu-btn.active span:nth-of-type(1) {
 	display: none;
 }
